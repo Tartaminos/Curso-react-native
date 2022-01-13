@@ -7,16 +7,18 @@ import { View, StyleSheet } from 'react-native'
 // import Randon from "./components/Randon"
 //import Title from "./components/Title"
 //import Button from "./components/Button"
-import Counter from "./components/Counter"
-
+//import Counter from "./components/Counter"
+//import Pai from "./components/Direta/Pai"
+import Pai from "./components/Indireta/Pai"
 
 export default () => (
         <View style={style.App}>
-            
-            <Counter initial={100} />
+
+            <Pai></Pai>
 
            {/* <CompPadrao />
 
+            <Counter initial={100} />
 
             <Button />  
 
