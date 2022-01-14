@@ -5,5 +5,20 @@ export default StyleSheet.create({
         fontSize: 24,
         textAlign: "center",
         fontWeight: 'bold',
+        textAlign: 'center',
+    },
+
+    counterStyle: {
+        backgroundColor: '#000',
+        padding: 20,
+        width: 300,
+    },
+
+    counterStyleText: {
+        color: '#FFF'
+    },
+
+    buttons: {
+        flexDirection: 'row'
     }
 })

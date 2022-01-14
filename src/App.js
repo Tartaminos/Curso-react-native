@@ -9,14 +9,19 @@ import { View, StyleSheet } from 'react-native'
 //import Button from "./components/Button"
 //import Counter from "./components/Counter"
 //import Pai from "./components/Direta/Pai"
-import Pai from "./components/Indireta/Pai"
+//import Pai from "./components/Indireta/Pai"
+import CounterV2 from "./components/counter/CounterV2"
+
 
 export default () => (
         <View style={style.App}>
 
-            <Pai></Pai>
+            <CounterV2 />
 
            {/* <CompPadrao />
+  
+  
+            <Pai></Pai>
 
             <Counter initial={100} />
 
