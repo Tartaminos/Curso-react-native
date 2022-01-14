@@ -10,16 +10,17 @@ import { View, StyleSheet } from 'react-native'
 //import Counter from "./components/Counter"
 //import Pai from "./components/Direta/Pai"
 //import Pai from "./components/Indireta/Pai"
-import CounterV2 from "./components/counter/CounterV2"
-
+//import CounterV2 from "./components/counter/CounterV2"
+import Distinguish from "./components/Distinguish"
 
 export default () => (
         <View style={style.App}>
 
-            <CounterV2 />
+            <Distinguish />
 
            {/* <CompPadrao />
   
+            <CounterV2 />
   
             <Pai></Pai>
 
