@@ -1,5 +1,5 @@
 import React from "react"
-import { View, StyleSheet } from 'react-native'
+import { View, StyleSheet, SafeAreaView } from 'react-native'
 
 // import First from './components/First'
 // import CompPadrao, { Comp1, Comp2 } from './components/Multi'
@@ -11,14 +11,50 @@ import { View, StyleSheet } from 'react-native'
 //import Pai from "./components/Direta/Pai"
 //import Pai from "./components/Indireta/Pai"
 //import CounterV2 from "./components/counter/CounterV2"
-import Distinguish from "./components/Distinguish"
+//import Distinguish from "./components/Distinguish"
+//import OddEven from "./components/OddEven"
+//import Family from "./components/Relation/Family"
+//import Member from "./components/Relation/Members"
+import LoggedUser from "./components/LoggedUser"
 
 export default () => (
-        <View style={style.App}>
+        <SafeAreaView style={style.App}>
+            
+            <LoggedUser user={  {name: "Gui", email: 'gui@gmail.com'}}/>
+            <LoggedUser user={  {name: "Sem email"}}/>
+            <LoggedUser user={  {email: 'semNome@gmail.com'}}/>
+            <LoggedUser user={null}/>
+            <LoggedUser user={  {}}/>
 
-            <Distinguish />
 
            {/* <CompPadrao />
+
+
+            <Family>
+                <Member nome="Bia" sobrenome="Arruda">
+
+                </Member>
+
+                <Member nome="Carlos" sobrenome="Arruda">
+
+                </Member>
+            </Family>
+
+            <Family>
+                <Member nome="Ana" sobrenome="Silva">
+
+                </Member>
+
+                <Member nome="Julia" sobrenome="Silva">
+
+                </Member>
+            </Family>
+
+            <OddEven num={3}>
+
+            </OddEven>
+
+            <Distinguish />
   
             <CounterV2 />
   
@@ -41,7 +77,7 @@ export default () => (
 
 
            <First />*/}
-        </View>
+        </SafeAreaView>
 )
 
 
