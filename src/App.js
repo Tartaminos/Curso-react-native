@@ -5,30 +5,44 @@ import { View, StyleSheet, SafeAreaView } from 'react-native'
 // import CompPadrao, { Comp1, Comp2 } from './components/Multi'
 // import MinMax from "./components/MinMax"
 // import Randon from "./components/Randon"
-//import Title from "./components/Title"
-//import Button from "./components/Button"
-//import Counter from "./components/Counter"
-//import Pai from "./components/Direta/Pai"
-//import Pai from "./components/Indireta/Pai"
-//import CounterV2 from "./components/counter/CounterV2"
-//import Distinguish from "./components/Distinguish"
-//import OddEven from "./components/OddEven"
-//import Family from "./components/Relation/Family"
-//import Member from "./components/Relation/Members"
-import LoggedUser from "./components/LoggedUser"
+// import Title from "./components/Title"
+// import Button from "./components/Button"
+// import Counter from "./components/Counter"
+// import Pai from "./components/Direta/Pai"
+// import Pai from "./components/Indireta/Pai"
+// import CounterV2 from "./components/counter/CounterV2"
+// import Distinguish from "./components/Distinguish"
+// import OddEven from "./components/OddEven"
+// import Family from "./components/Relation/Family"
+// import Member from "./components/Relation/Members"
+// import LoggedUser from "./components/LoggedUser"
+// import ProductList from "./components/Products/ProductList"
+// import ProductList2 from "./components/Products/ProductList2"
+// import EntryYourName from "./components/EntryYourName"
+// import Square from "./components/layout/Square"
+import FlexBox1 from "./components/layout/FlexBox1"
+
+
 
 export default () => (
         <SafeAreaView style={style.App}>
+            
+            <FlexBox1 />
+        
+
+           {/* <CompPadrao />
+
+            <EntryYourName />
+
+            <ProductList2 />
+
+            <ProductList />
             
             <LoggedUser user={  {name: "Gui", email: 'gui@gmail.com'}}/>
             <LoggedUser user={  {name: "Sem email"}}/>
             <LoggedUser user={  {email: 'semNome@gmail.com'}}/>
             <LoggedUser user={null}/>
             <LoggedUser user={  {}}/>
-
-
-           {/* <CompPadrao />
-
 
             <Family>
                 <Member nome="Bia" sobrenome="Arruda">
