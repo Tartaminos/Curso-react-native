@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { View } from 'react-native'
 
 export default (props) => {
-    const side = 50
+    const side = props.side
     return (
         <Fragment>
             <View style={{

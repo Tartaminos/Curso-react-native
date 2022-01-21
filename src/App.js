@@ -20,17 +20,22 @@ import { View, StyleSheet, SafeAreaView } from 'react-native'
 // import ProductList2 from "./components/Products/ProductList2"
 // import EntryYourName from "./components/EntryYourName"
 // import Square from "./components/layout/Square"
-import FlexBox1 from "./components/layout/FlexBox1"
+// import FlexBox1 from "./components/layout/FlexBox1"
+import FlexBox3 from "./components/layout/FlexBox3"
 
 
 
 export default () => (
         <SafeAreaView style={style.App}>
             
-            <FlexBox1 />
+            <FlexBox3 />
         
 
            {/* <CompPadrao />
+
+            <FlexBox2 />
+            
+            <FlexBox1 />
 
             <EntryYourName />
 
