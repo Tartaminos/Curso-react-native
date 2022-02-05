@@ -2,10 +2,9 @@ import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
     biggerText: {
-        fontSize: 24,
+        fontSize: 30,
         textAlign: "center",
         fontWeight: 'bold',
-        textAlign: 'center',
     },
 
     counterStyle: {
